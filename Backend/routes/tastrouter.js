@@ -98,16 +98,9 @@ router.put("/:id", protect,roleMiddleware(["admin","user"]), updateTask);
     //       "description": "Task-1 created",
     //       "status": "completed",
     //       "priority": "high",
-    //       "assignedTo": {
-    //         "_id": "66c95e8c25e3f4e573673efc",
-    //         "name": "Baba khalil",
-    //         "email": "babakhalilmalyam2@gmail.com"
-    //       },
-    //       "createdBy": {
-    //         "_id": "66c952cbe2d29b2edf74a8d1",
-    //         "name": "Baba",
-    //         "email": "babakhalilmalyam@gmail.com"
-    //       },
+    //       "assignedTo": "66c95e8c25e3f4e573673efc",
+    //         
+    //       "createdBy": "66c952cbe2d29b2edf74a8d1",
     //       "createdAt": "2024-08-24T04:23:27.571Z",
     //       "__v": 0
     //     }
